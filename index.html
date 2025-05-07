@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Doonheights Primary School</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white p-6 shadow-md">
+    <h1 class="text-3xl font-bold">Doonheights Primary School</h1>
+    <p class="text-sm">Amanzimtoti, KZN</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-blue-500 text-white p-3 flex gap-6 justify-center">
+    <a href="#" class="hover:underline">Home</a>
+    <a href="#about" class="hover:underline">About Us</a>
+    <a href="#academics" class="hover:underline">Academics</a>
+    <a href="#contact" class="hover:underline">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="p-6 space-y-12">
+
+    <!-- Hero Section -->
+    <section class="text-center py-10 bg-yellow-100 rounded-xl shadow-md">
+      <h2 class="text-2xl font-bold text-blue-700">Welcome to Doonheights!</h2>
+      <p class="mt-4 text-lg">Inspiring young minds in Amanzimtoti with care, creativity, and excellence.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold mb-3 text-blue-600">About Us</h3>
+      <p>Doonheights Primary School is a nurturing learning environment where children grow academically, socially, and emotionally. Located in the heart of Amanzimtoti, we are committed to holistic education for every child.</p>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold mb-3 text-blue-600">Our Academics</h3>
+      <ul class="list-disc pl-5 space-y-1">
+        <li>Foundation Phase: Grades R - 3</li>
+        <li>Intermediate Phase: Grades 4 - 6</li>
+        <li>Subjects: English, Mathematics, Natural Sciences, Life Skills, isiZulu, and more</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section with Formsubmit Form -->
+    <section id="contact" class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold mb-4 text-blue-600">Contact Us</h3>
+
+      <!-- Contact Info -->
+      <div class="mb-6">
+        <p><strong>Email:</strong> andilelondy0@gmail.com</p>
+        <p><strong>Phone:</strong> 064 376 7300</p>
+        <p><strong>Address:</strong> 66 Longacres Dr, Amanzimtoti, 4126</p>
+      </div>
+
+      <!-- Contact Form (Formsubmit) -->
+      <form action="https://formsubmit.co/andilelondy0@gmail.com" method="POST" class="space-y-4">
+        <!-- Replace YOUR_EMAIL@example.com with your real email -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://thankyou.page.or.yoursite.com">
+
+        <div>
+          <label for="name" class="block font-medium">Your Name</label>
+          <input type="text" name="name" id="name" required class="w-full border border-gray-300 rounded p-2 mt-1" />
+        </div>
+
+        <div>
+          <label for="email" class="block font-medium">Your Email</label>
+          <input type="email" name="email" id="email" required class="w-full border border-gray-300 rounded p-2 mt-1" />
+        </div>
+
+        <div>
+          <label for="message" class="block font-medium">Message</label>
+          <textarea name="message" id="message" rows="4" required class="w-full border border-gray-300 rounded p-2 mt-1"></textarea>
+        </div>
+
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+          Send Message
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center p-4 mt-10">
+    <p>&copy; 2025 Doonheights Primary School. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
